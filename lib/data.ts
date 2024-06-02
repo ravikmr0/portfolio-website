@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import elearnImg from "@/public/elearn.png";
+import elearningImg from "@/public/elearning.png";
+import zofadImg from "@/public/zofad.png";
+import zofad2Img from "@/public/zofad2.png"
 
 export const links = [
   {
@@ -35,52 +36,59 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: " BCA Graduated",
+    location: "Mathura, UP, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 3 Years of studying. I immediately found a job as a Full-Stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2025",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on Unified Mentor Private Limited as a front-end developer for 2 Months in 1 job and 1 year in another job. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "March-2024 - April-2021",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Remote",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-Learning Platform",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "'Sigma Edify', I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    imageUrl: elearnImg,
   },
   {
-    title: "rmtDev",
+    title: "Sigma Edify",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "'sigmaedify.com', Welcome to E-Learn Hub, your ultimate destination for online education and skill enhancement. career, learn a new hobby.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    imageUrl: elearningImg,
+  },
+  {
+    title: "E-Commerce",
+    description:
+      "'Zofad', I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: zofadImg,
   },
   {
-    title: "Word Analytics",
+    title: "Zofad Furniture",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "'zofad.in', Zofad is a premier online furniture retailer committed to providing stylish, high-quality home furnishings at competitive prices.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: zofad2Img,
   },
 ] as const;
 
