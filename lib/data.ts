@@ -77,16 +77,16 @@ export const projectsData = [
     imageUrl: elearningImg,
   },
   {
-    title: "E-Commerce",
+    title: "Tech Vexor",
     description:
-      "'Zofad', I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "'Tech vexor', I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: zofadImg,
   },
   {
     title: "Zofad Furniture",
     description:
-      "'zofad.in', Zofad is a premier online furniture retailer committed to providing stylish, high-quality home furnishings at competitive prices.",
+      "'techvexor.com', Tech Vexor is an IT services company specializing in web development, digital marketing, and IT solutions, tailored to the solar panel manufacturing sector.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: zofad2Img,
   },
