@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Sigma Edify",
     description:
-      "'sigmaedify.com', Welcome to E-Learn Hub, your ultimate destination for online education and skill enhancement. career, learn a new hobby.",
+      "sigmaedify.com, Welcome to E-Learn Hub, your ultimate destination for online education and skill enhancement. career, learn a new hobby.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: elearningImg,
   },
@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: "Tech Vexor",
     description:
-      "'techvexor.com', Tech Vexor is an IT services company specializing in web development, digital marketing, and IT solutions, tailored to the solar panel manufacturing sector.",
+      "techvexor.com, Tech Vexor is an IT services company specializing in web development, digital marketing, and IT solutions, tailored to the solar panel manufacturing sector.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: zofad2Img,
   },
