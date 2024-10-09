@@ -84,7 +84,7 @@ export const projectsData = [
     imageUrl: zofadImg,
   },
   {
-    title: "Zofad Furniture",
+    title: "Tech Vexor",
     description:
       "'techvexor.com', Tech Vexor is an IT services company specializing in web development, digital marketing, and IT solutions, tailored to the solar panel manufacturing sector.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
