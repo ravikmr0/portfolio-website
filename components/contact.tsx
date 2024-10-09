@@ -35,8 +35,10 @@ export default function Contact() {
         Please contact me directly at{" "}
         <a className="underline" href="mailto:mbravikumar0@gmail.com">
           mbravikumar0@gmail.com
-          +916398422407
         </a>{" "}
+
+        <a className="underline" href="tel:+916398422407">Call me: +916398422407</a>
+
         or through this form.
       </p>
 
